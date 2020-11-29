@@ -9,6 +9,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    String a;
+
     public void clickFunction(View view) {
         Log.i("Log: ","Successful");
         EditText x = (EditText) findViewById(R.id.editText);
