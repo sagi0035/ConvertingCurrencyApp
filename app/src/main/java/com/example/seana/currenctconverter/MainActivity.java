@@ -12,11 +12,10 @@ public class MainActivity extends AppCompatActivity {
     String a;
 
     public void clickFunction(View view) {
-        Log.i("Log: ","Successful");
+        // so we initialise the edittext so as to be able to type in a number to convert
         EditText x = (EditText) findViewById(R.id.editText);
-        Log.i("Text showing: ",x.getText().toString());
 
-        // so first we turn x into a doible through Double.parseDouble()
+        // we get the number turn it into a double and convert the currency
         double y = Double.parseDouble(x.getText().toString()) * 1.13;
 
         /*
